@@ -115,6 +115,11 @@ nav {
   transition: background-color 0.5s ease;
 }
 
+.banner .page div:nth-child(1) {
+  background-color: #d90845;
+  border: 1px solid #fff;
+}
+
 .banner .page div:hover {
   background-color: #d90845;
   border: 1px solid #fff;
@@ -374,6 +379,9 @@ nav {
   border-radius: 50%;
   background-color: #ccc;
   transition: background-color 0.5s ease;
+}
+.avatar .page div:nth-child(1) {
+  background-color: #d90845;
 }
 
 .avatar .page div:hover {
