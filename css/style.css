@@ -21,6 +21,8 @@ nav {
   justify-content: center;
   align-items: center;
   padding: 5px 0 5px 16px;
+  color: #d90845;
+  cursor: pointer;
 }
 
 .logo-area img {
@@ -48,6 +50,15 @@ nav {
 
 .list-area li {
   margin: 0 10px;
+}
+
+.list-area i {
+  display: inline-block;
+  margin-right: 5px;
+}
+
+.list-area a:hover, .list-area a:hover i {
+  color: #d90845;
 }
 
 .list-area span img {
