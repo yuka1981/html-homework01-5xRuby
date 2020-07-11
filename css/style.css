@@ -46,7 +46,6 @@ nav {
 
 .list-area li {
   margin: 0 10px;
-  /* display: inline-block; */
 }
 
 
@@ -69,16 +68,15 @@ nav {
 
 /* about us section */
 .about-us {
-  margin-top: 60px;
-  /* padding-top: 60px; */
-  /* padding-bottom: 24px; */
+  padding-top: 24px;
+  background-color: #f7f7f7;
   text-align: center;
 }
 
 .about-us .title{
   font-size: 24px;
   text-align: center;
-  margin-top: 48px;
+  margin-top: 24px;
   padding-bottom: 24px;
   color: #555555;
 }
@@ -108,10 +106,12 @@ nav {
 
 .about-us .subtitle {
   padding: 16px 0 0;
+  color: #555555;
 }
 
 .about-us .desc {
   padding: 16px 0;
+  color: #333;
 }
 
 /* lecture section */
@@ -198,13 +198,14 @@ nav {
 }
 
 .lecture .course-btn {
-  width: 228px;
+  width: 128px;
   text-align: center;
   margin: 40px auto;
   padding: 15px 50px;
   font-size: 18px;
   background-color: #d90845;
   border-radius: 5px;
+  /* transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out; */
 }
 
 .lecture .course-btn a {
@@ -272,12 +273,12 @@ nav {
 
 /* know-about-us section */
 .know-about-us {
-  padding: 24px 0;
+  padding: 24px 0 60px 0;
 }
 
 .know-about-us .container {
   width: 1200px;
-  height: 300px;
+  height: 200px;
   margin: 16px auto;
   text-align: center;
 }
@@ -305,3 +306,76 @@ nav {
   margin: 0 16px;
 }
 
+/* footer section */
+.footer {
+  padding: 30px 0 2px 0;
+  background-color: #f7f7f7;
+  font-size: 15px;
+}
+
+.footer ul {
+  list-style: none;
+  padding: 0 15px;
+}
+
+.footer li:nth-child(1) {
+  font-weight: 500;
+}
+
+.footer li {
+  margin-bottom: 8px;
+}
+
+.footer a {
+  text-decoration: none;
+  color: #888888;
+}
+
+.footer a:hover {
+  color: #d90845;
+}
+
+.footer img {
+  width: 130px; 
+}
+
+
+.footer .container {
+  width: 1200px;
+  margin: 0 auto;
+  display: flex;
+}
+
+.footer .col:nth-child(1) {
+  flex-grow: 2;
+}
+
+.footer i {
+  color: #888888;
+  margin-right: 8px;
+}
+
+.footer .col {
+  flex-grow:1;
+}
+
+.footer .list-title {
+  color: #333;
+}
+
+.footer-copyright {
+  width: 1200px;
+  margin: auto;
+  padding: 16px 0 0 0;
+  text-align: center;
+  color: #888888;
+  font-size: 13px;
+}
+
+.footer-copyright .text-area {
+  width: 1170px;
+  padding: 24px 0 0 0 ;
+  margin: 30px auto;
+  box-sizing: border-box;
+  border-top: 2px solid #ccc;
+}
