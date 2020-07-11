@@ -16,6 +16,7 @@ nav {
   /* justify-content: space-between; */
   background-color: #fff;
   position: fixed;
+  z-index: 2;
 }
 
 .logo-area {
@@ -52,6 +53,17 @@ nav {
   margin: 0 10px;
 }
 
+.list-area span img {
+  width: 20px;
+  position: relative;
+  animation: change 1.25s ease-in-out infinite alternate;
+}
+
+@keyframes change{
+  0%{transform: translateY(0px)}
+  50% {transform: translateY(-3px)}
+  100%{transform: translateY(0px)}
+}
 
 .list-area a, .list-area i {
   color: #555555;
@@ -154,11 +166,19 @@ nav {
   margin: auto;
   justify-content: space-between;
   padding: 0 16px;
+  /* position: relative; */
 }
 
 .lecture .card {
   width: 360px;
   border: 1px solid #ccc;
+  transition: top 0.15s ease-in-out, box-shadow 0.5s ease-in-out;
+}
+
+.lecture .card:hover {
+  top: -5px;
+  position: relative;
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
 }
 
 .lecture .text-area {
@@ -213,7 +233,12 @@ nav {
   font-size: 18px;
   background-color: #d90845;
   border-radius: 5px;
-  /* transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out; */
+  transition: color .15s ease-in-out, box-shadow .3s ease-in-out;
+
+}
+.lecture .course-btn:hover {
+  color: #eee;
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
 }
 
 .lecture .course-btn a {
