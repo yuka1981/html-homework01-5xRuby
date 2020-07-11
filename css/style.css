@@ -1,0 +1,271 @@
+body {
+  font-family: 'Noto Sans TC', sans-serif;
+  line-height: 1.5;
+}
+
+
+/* nav section */
+nav {
+  /* width: 100vw; */
+  /* width: 100%; */
+  height: 70px;
+  display: flex;
+  padding: 0 16px;
+  justify-content: space-between;
+  background-color: #eee;
+  /* position: fixed; */
+}
+
+.logo-area {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 5px 0 5px 16px;
+}
+
+.logo-area img {
+  width: 35%;
+}
+
+.logo-text {
+  font-size: 16px;
+  padding: 0 0 0 8px;
+}
+
+.list-area {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.list-area ul {
+  list-style: none;
+  display: flex;
+  align-items: center;
+}
+
+.list-area li {
+  margin: 0 10px;
+  /* display: inline-block; */
+}
+
+
+.list-area a, .list-area i {
+  color: #555555;
+}
+
+.list-area a {
+  text-decoration: none;
+}
+
+
+/* banner section */
+.banner {
+  /* margin-top: 70px; */
+}
+.banner img {
+  width: 100vw;
+}
+
+/* about us section */
+.about-us {
+  margin-top: 60px;
+  /* padding-top: 60px; */
+  /* padding-bottom: 24px; */
+  text-align: center;
+}
+
+.about-us .title{
+  font-size: 24px;
+  text-align: center;
+  margin-top: 48px;
+  padding-bottom: 24px;
+  color: #555555;
+}
+
+.about-us .title::after {
+  content: '';
+  display: block;
+  background-color: #d90845;
+  height: 4px;
+  width: 100px;
+  margin: 24px auto;
+}
+
+.about-us .container {
+  width: 1200px;
+  box-sizing: border-box;
+  /* height: 494px; */
+  display: flex;
+  justify-content: center;
+  margin: auto;
+}
+
+.about-us .card {
+  width: 277px;
+  padding: 0px 16px;
+}
+
+.about-us .subtitle {
+  padding: 16px 0 0;
+}
+
+.about-us .desc {
+  padding: 16px 0;
+}
+
+/* lecture section */
+.lecture {
+  margin-top: 60px;
+}
+
+.lecture h3 {
+  font-size: 24px;
+  text-align: center;
+  color: #555555;
+}
+
+.lecture .title {
+  margin-top: 48px;
+  padding-bottom: 24px;
+}
+
+.lecture h3:after {
+  content: "";
+  display: block;
+  width: 100px;
+  height: 4px;
+  background-color: #d90845;
+  margin: 24px auto;
+}
+
+.lecture .container {
+  width: 1200px;
+  box-sizing: border-box;
+  display: flex;
+  margin: auto;
+  justify-content: space-between;
+  padding: 0 16px;
+}
+
+.lecture .card {
+  width: 360px;
+  border: 1px solid #ccc;
+}
+
+.lecture .text-area {
+  padding: 8px 15px;
+}
+
+.lecture .course {
+  padding: 8px 0 24px;
+}
+
+.lecture h4 {
+  font-size: 12px;
+  display: inline-block;
+  background-color: #d90845;
+  color: #fff;
+  padding: 5px 7px;
+  border-radius: 4px;
+}
+
+.lecture .teacher, .lecture .course-date {
+  color: #999;
+}
+
+.lecture .course {
+  font-size: 18px;
+}
+
+.lecture .course-date {
+  display: flex;
+  padding: 16px 0 0;
+}
+
+.lecture span:nth-child(1) {
+  width: 70px;
+}
+
+.lecture span:nth-child(2) {
+  padding: 4px 10px;
+  color: #666;
+  background-color: #e6e6e6;
+}
+
+.lecture .card .img-area img {
+  width: 100%;
+}
+
+.lecture .course-btn {
+  width: 228px;
+  text-align: center;
+  margin: 40px auto;
+  padding: 15px 50px;
+  font-size: 18px;
+  background-color: #d90845;
+  border-radius: 5px;
+}
+
+.lecture .course-btn a {
+  color: #fff;
+  text-decoration: none;
+}
+
+
+/* avatar section */
+.avatar {
+  background-color: #f7f7f7;
+  padding-bottom: 80px;
+}
+
+.avatar .title {
+  padding-top: 24px;
+  padding-bottom: 24px;
+}
+
+.avatar h3 {
+  text-align: center;
+  font-size: 24px;
+  color: #555555;
+}
+
+.avatar h3:after {
+  content: '';
+  display: block;
+  height: 4px;
+  width: 100px;
+  background-color: #d90845;
+  margin: 24px auto;
+}
+
+.avatar .carousel-item {
+  display: flex;
+  justify-content: center;
+}
+
+.avatar .text-area {
+  width: 615px;
+  height: 120px;
+  margin-left: 24px;
+}
+
+.avatar .desc {
+  font-size: 16px;
+}
+
+.avatar .name {
+  margin: 8px 0 4px;
+  font-size: 24px;
+  color: #d90845;
+}
+
+.avatar .job-title {
+  color: #888888;
+}
+
+.avatar img {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+}
