@@ -122,17 +122,25 @@ nav {
 
 /* about us section */
 .about-us {
-  padding-top: 24px;
+  padding: 24px 0 48px 0;
   background-color: #f7f7f7;
   text-align: center;
 }
 
-.about-us .title{
+.about-us h3 {
+  font-weight: 400;
   font-size: 24px;
   text-align: center;
-  margin-top: 24px;
-  padding-bottom: 24px;
   color: #555555;
+  margin: 24px 0;
+}
+
+.about-us h3.subtitle{
+  font-weight: 400;
+  font-size: 24px;
+  text-align: center;
+  color: #555555;
+  margin: 20px 0 20px 0;
 }
 
 .about-us .title::after {
@@ -157,13 +165,7 @@ nav {
   padding: 0px 16px;
 }
 
-.about-us .subtitle {
-  padding: 16px 0 0;
-  color: #555555;
-}
-
 .about-us .desc {
-  padding: 16px 0;
   color: #333;
 }
 
@@ -173,9 +175,11 @@ nav {
 }
 
 .lecture h3 {
+  font-weight: 400;
   font-size: 24px;
   text-align: center;
   color: #555555;
+  margin: 20px 0 20px 0;
 }
 
 .lecture .title {
@@ -183,7 +187,7 @@ nav {
   padding-bottom: 24px;
 }
 
-.lecture h3:after {
+.lecture h3::after {
   content: "";
   display: block;
   width: 100px;
@@ -266,10 +270,10 @@ nav {
   background-color: #d90845;
   border-radius: 5px;
   transition: color .15s ease-in-out, box-shadow .3s ease-in-out;
-
 }
+
 .lecture .course-btn:hover {
-  color: #eee;
+  color: #ccc;
   box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
 }
 
@@ -291,6 +295,7 @@ nav {
 }
 
 .avatar h3 {
+  font-weight: 400;
   text-align: center;
   font-size: 24px;
   color: #555555;
@@ -373,6 +378,7 @@ nav {
 }
 
 .know-about-us h3{
+  font-weight: 400;
   font-size: 24px;
   color: #555555;
 }
