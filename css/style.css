@@ -10,11 +10,12 @@ nav {
   height: 70px;
   display: flex;
   padding-right: 16px;
-  padding-right: 16px;
   background-color: #fff;
   position: fixed;
-  z-index: 2;
-  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+  z-index: 1;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.3);
+  font-weight: 400;
+  color: #777;
 }
 
 .logo-area {
@@ -235,6 +236,10 @@ nav {
   border-radius: 4px;
 }
 
+.lecture .teacher {
+  padding-bottom: 12px;
+}
+
 .lecture .teacher, .lecture .course-date {
   color: #999;
 }
@@ -244,6 +249,7 @@ nav {
 }
 
 .lecture .course-date {
+  border-top: 1px solid #ddd;
   display: flex;
   padding: 16px 0 0;
 }
